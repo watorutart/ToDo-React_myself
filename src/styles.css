@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+li {
+  align-items: center;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.inputTodo {
+  background-color: aqua;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.incompleteList {
+  background-color: aquamarine;
+  width: 400px;
+  min-height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.completeList {
+  background-color: darkorange;
+  width: 400px;
+  min-height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: #666;
+}
